@@ -1,0 +1,10 @@
+<html>
+<body>
+<h3>enter values for record to be inserted:</h3>
+<form action="http://localhost/cgi-bin/nov/insert.php"method="post">
+NAME:<input type="text" name="name"/><br/>
+Address 1:<input type="text" name="addr1"/><br/>
+Address 1:<input type="text" name="addr2"/><br/>
+email:<input type="text" name="email"/><br/>
+<input type="submit"/>
+</form></body></html>
