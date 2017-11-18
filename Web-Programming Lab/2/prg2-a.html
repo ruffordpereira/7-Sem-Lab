@@ -1,0 +1,25 @@
+<html>
+<head>
+	<script type="text/javascript">
+	function printDetails()
+	{
+		var usn=document.getElementById("USN");
+		var sem=document.getElementById("SEM");
+		alert("USN:"+usn.value+"\nsem:"+sem.value);
+	}
+	</script>
+<title>Student information</title></head>
+<body>
+	<form onsubmit="return printDetails()">
+<label>Enter USN
+<input type="text"maxlength="10"id="USN"></label>
+<br>
+<label>Enter Sem
+<input type="number"maxlength="2"id="SEM"></label>
+<br>
+<label>
+Semester 
+<input type="radio"value="2"value="4"></label>
+<input type="submit"value="Submit">
+</body>
+</html>

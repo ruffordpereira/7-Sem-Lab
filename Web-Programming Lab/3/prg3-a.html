@@ -1,0 +1,33 @@
+<html>
+<head><title>new page</title>
+<style type="text/css">
+	p{
+    border-width:thick;
+    border-style:groove;
+    border-color:black;
+    width:300px;
+    height:100px;
+    position:absolute;
+}
+p.plane1{top:200px;left:20px;background-color:blue;
+	z-index:1;}
+p.plane2{top:225px;left:40px;background-color:green;
+	z-index:2;}
+p.plane3{top:250px;left:60px;background-color:yellow;
+	z-index:3;}
+</style>
+</head>
+<body>
+	<script type="text/javascript">
+	var topLayer="layer3";
+	function mover(toTop)
+	{
+		document.getElementById(topLayer).style.zIndex="0";
+		document.getElementById(toTop).style.zIndex="4"
+		topLayer=toTop;
+		}</script>
+<p class="plane1" id="layer1" onMouseOver="mover('layer1');">HTML Allows us to structure web pages</p>
+<p class="plane2" id="layer2" onMouseOver="mover('layer2');">CSS Informs the browser about the styling to be used for elements</p>
+<p class="plane3" id="layer3" onMouseOver="mover('layer3');">Javascript allows to creates functions</p>
+</body>
+</html>
