@@ -11,11 +11,11 @@
         var fib1 = 0, fib2 = 1, fib = 0;
         var num = prompt("enter a no");
         if (num != null && num > 0) {
-            document.write("<h1>" + num + "fibonaci numbers are :</h1>");
+            document.write("<h1>The " + num + " fibonaci numbers are :</h1>");
             if (num == 1)
                 document.write("<h1>" + fib1 + "</h1>");
             else
-                document.write("<h1>" + fib1 + " " + fib2 + "</h1>");
+                document.write("<h1>" + fib1 + " <br> " + fib2 + "</h1>");
             for (i = 3; i <= num; i++) {
                 fib = fib1 + fib2;
                 document.write("<h1>" + fib + "</h1>");
