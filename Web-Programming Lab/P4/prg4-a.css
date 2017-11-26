@@ -1,28 +1,35 @@
-student{
-         border:solid thick blue;
-         width:300px;
-         height:120px;
-         padding:20px;
-         margin:20px;
-         }
- usn{
-     color:orange;
-    }
- name{
-     color:black;
-    }
-  college{
-     color:purple;
-    }
- branch{
-     color:red;
-    }
-  year{
-     color:purple;
-    }
-  email{
-     color:blue;
-    }
-    *{display:block;
-      }
-      
+student {
+    border: solid thick blue;
+    width: 300px;
+    height: 120px;
+    padding: 20px;
+    margin: 20px;
+}
+
+usn {
+    color: orange;
+}
+
+name {
+    color: black;
+}
+
+college {
+    color: purple;
+}
+
+branch {
+    color: red;
+}
+
+year {
+    color: purple;
+}
+
+email {
+    color: blue;
+}
+
+* {
+    display: block;
+}

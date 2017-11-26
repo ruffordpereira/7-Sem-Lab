@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
 <?xml-stylesheet type="text/css" href="4a.css"?>
 <VTU>
-<student>
-     <usn>4so12cs076</usn>
-	<name>rufford</name>
-	<college>SJEC</college>
-	<branch>CSE</branch>
-	<email>rr@gmail.com</email>
-	<joinyear>2012</joinyear>
-</student>
-<student>
-        <usn>4so14cs042</usn>
-        <name>lester</name>
-        <college>SJEC</college>
-        <branch>CSE</branch>
-        <email>lds@gmail.com</email>
-        <joinyear>2014</joinyear>
-</student>
-<student>
-        <usn>4so14cs049</usn>
-        <name>macnroe</name>
-        <college>SJEC</college>
-        <branch>CSE</branch>
-        <email>macnroeferns@gmail.com</email>
-        <joinyear>2014</joinyear>
-</student>
+        <student>
+                <usn>4so12cs076</usn>
+                <name>rufford</name>
+                <college>SJEC</college>
+                <branch>CSE</branch>
+                <email>rr@gmail.com</email>
+                <joinyear>2012</joinyear>
+        </student>
+        <student>
+                <usn>4so14cs042</usn>
+                <name>lester</name>
+                <college>SJEC</college>
+                <branch>CSE</branch>
+                <email>lds@gmail.com</email>
+                <joinyear>2014</joinyear>
+        </student>
+        <student>
+                <usn>4so14cs049</usn>
+                <name>macnroe</name>
+                <college>SJEC</college>
+                <branch>CSE</branch>
+                <email>macnroeferns@gmail.com</email>
+                <joinyear>2014</joinyear>
+        </student>
 </VTU>
