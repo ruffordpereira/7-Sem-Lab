@@ -1,26 +1,39 @@
 <html>
 <title> BookStore </title>
+
 <body>
-<h2>Search Results</h2>
-<p>
-<%= @resString %>
-</p>
-<table border="1">
-<tr>
-<th>Acc No</th>
-<th>Title</th>
-<th>Authors</th>
-<th>Edition</th>
-<th>Publisher</th>
-</tr>
-<% @bookz.each do |bk| %>
-<tr>
-<td> <%= bk.accno %> </td>
-<td> <%= bk.title %> </td>
-<td> <%= bk.authors %> </td>
-<td> <%= bk.edition %> </td>
-<td> <%= bk.publisher %> </td>
-</tr><% end %>
-</table>
+    <h2>Search Results</h2>
+    <p>
+        <%= @resString %>
+    </p>
+    <table border="1">
+        <tr>
+            <th>Acc No</th>
+            <th>Title</th>
+            <th>Authors</th>
+            <th>Edition</th>
+            <th>Publisher</th>
+        </tr>
+        <% @bookz.each do |bk| %>
+            <tr>
+                <td>
+                    <%= bk.accno %>
+                </td>
+                <td>
+                    <%= bk.title %>
+                </td>
+                <td>
+                    <%= bk.authors %>
+                </td>
+                <td>
+                    <%= bk.edition %>
+                </td>
+                <td>
+                    <%= bk.publisher %>
+                </td>
+            </tr>
+            <% end %>
+    </table>
 </body>
+
 </html>
